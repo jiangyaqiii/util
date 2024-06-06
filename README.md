@@ -3,7 +3,7 @@
 
 ==========清除缓存==============
 
- curl -s https://raw.githubusercontent.com/jiangyaqiii/util/main/delete_cache.sh |bash
+ wget -O delete_cache.sh https://raw.githubusercontent.com/jiangyaqiii/util/main/delete_cache.sh && chmod +x delete_cache.sh && ./delete_cache.sh
  
 ===============================
  
