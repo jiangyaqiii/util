@@ -8,3 +8,7 @@
 ===========机器重置====================
 
  wget -O reset.sh https://raw.githubusercontent.com/jiangyaqiii/util/main/reset.sh && chmod +x reset.sh && ./reset.sh
+
+===========检查ps状态====================
+
+wget -O reset.sh https://raw.githubusercontent.com/jiangyaqiii/util/main/reset.sh && chmod +x reset.sh && ./reset.sh
