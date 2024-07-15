@@ -12,3 +12,7 @@
 ===========检查ps状态====================
 
 wget -O reset.sh https://raw.githubusercontent.com/jiangyaqiii/util/main/reset.sh && chmod +x reset.sh && ./reset.sh
+
+===========服务器上传阿里云盘====================
+
+up_load_aliyunpan
