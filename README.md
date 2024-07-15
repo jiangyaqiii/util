@@ -15,4 +15,4 @@ wget -O reset.sh https://raw.githubusercontent.com/jiangyaqiii/util/main/reset.s
 
 ===========服务器上传阿里云盘====================
 
-up_load_aliyunpan
+up_load_aliyunpan.sh
