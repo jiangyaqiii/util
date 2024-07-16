@@ -16,3 +16,7 @@ wget -O reset.sh https://raw.githubusercontent.com/jiangyaqiii/util/main/reset.s
 ===========服务器上传阿里云盘====================
 
 up_load_aliyunpan.sh
+
+===========服务器上传阿里oss====================
+
+wget -O up_oss.sh https://raw.githubusercontent.com/jiangyaqiii/util/main/up_oss.sh && chmod +x up_oss.sh && ./up_oss.sh
