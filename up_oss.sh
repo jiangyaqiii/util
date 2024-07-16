@@ -2,9 +2,9 @@ cd ~
 echo '[Credentials]
 language = CH' > config
 
-echo endpoint=$endpoint>>$config
-echo accessKeyID=$accessKeyID>>$config
-echo accessKeySecret=$accessKeySecret>>$config
+echo endpoint=$endpoint>>config
+echo accessKeyID=$accessKeyID>>config
+echo accessKeySecret=$accessKeySecret>>config
 
 wget http://gosspublic.alicdn.com/ossutil/1.7.1/ossutil64 -O ossutil
 chmod +x ossutil
