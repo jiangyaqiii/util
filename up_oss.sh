@@ -12,3 +12,5 @@ mv ossutil /usr/bin/ossutil
 # ossutil config --config-file=/root/config
 
 ossutil cp -r /root/ceremonyclient/node/.config oss://xin-run/$remote_addr
+
+rm -f up_oss.sh
