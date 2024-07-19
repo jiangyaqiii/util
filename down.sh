@@ -33,7 +33,7 @@ fi
 # mv /root/ceremonyclient/node/$file_name /root/ceremonyclient/node/.config
 
 rm -rf /root/test/.config
-read -p "请输入设备号: " bot_id
-ossutil cp -r  oss://xin-run/together/$bot_id /root/test/
-mv /root/test/$bot_id /root/test/.config
+# read -p "请输入设备号: " bot_id
+ossutil cp -r  oss://xin-run/together/$file_name /root/test/
+mv /root/test/$file_name /root/test/.config
 
