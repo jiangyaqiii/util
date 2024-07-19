@@ -8,8 +8,8 @@ if [ ! -f "$file" ]; then
     echo '[Credentials]
     language = CH' > .ossutilconfig
     echo endpoint='oss-ap-northeast-1.aliyuncs.com'>>.ossutilconfig
-    echo accessKeyID='LTAI5tHzredo9j18JtvhVhjU'>>.ossutilconfig
-    echo accessKeySecret='lhpCDNGVEfkmzAZvTniQLsZKyOysn4'>>.ossutilconfig
+    echo accessKeyID='LTAI5tEDcXigS2aqXF89Yyv6'>>.ossutilconfig
+    echo accessKeySecret='Va3VDQlKPWjoxsHxH5ptegAxug3jJx'>>.ossutilconfig
 else
     # 文件存在，不执行任何操作
     echo "OSS配置文件已存在，不执行任何操作"
