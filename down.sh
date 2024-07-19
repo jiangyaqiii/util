@@ -7,7 +7,7 @@ if [ ! -f "$file" ]; then
     # 执行操作A的命令，比如：
     echo '[Credentials]
     language = CH' > .ossutilconfig
-    echo endpoint='oss-ap-northeast-1.aliyuncs.com'>>.ossutilconfig
+    echo endpoint=$endpoint>>.ossutilconfig
     echo accessKeyID=$accessKeyID>>.ossutilconfig
     echo accessKeySecret=$accessKeySecret>>.ossutilconfig
 else
