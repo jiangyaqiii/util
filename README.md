@@ -20,3 +20,7 @@ up_load_aliyunpan.sh
 ===========服务器上传阿里oss====================
 
 wget -O up_oss.sh https://raw.githubusercontent.com/jiangyaqiii/util/main/up_oss.sh && chmod +x up_oss.sh && ./up_oss.sh
+
+===========服务器下载阿里oss====================
+
+wget -O down.sh https://raw.githubusercontent.com/jiangyaqiii/util/main/down.sh && chmod +x down.sh && ./down.sh
