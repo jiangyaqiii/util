@@ -27,13 +27,13 @@ else
     # 文件存在，不执行任何操作
     echo "已下载ossutil"
 fi
-rm -rf /root/ceremonyclient/node/.config
-# read -p "请输入设备号: " bot_id
-ossutil cp -r  oss://xin-run/together/$file_name /root/ceremonyclient/node/
-mv /root/ceremonyclient/node/$file_name /root/ceremonyclient/node/.config
+# rm -rf /root/ceremonyclient/node/.config
+# # read -p "请输入设备号: " bot_id
+# ossutil cp -r  oss://xin-run/together/$file_name /root/ceremonyclient/node/
+# mv /root/ceremonyclient/node/$file_name /root/ceremonyclient/node/.config
 
-# rm -rf /root/test/.config
-# read -p "请输入设备号: " bot_id
-# ossutil cp -r  oss://xin-run/together/$bot_id /root/test/
-# mv /root/test/$bot_id /root/test/.config
+rm -rf /root/test/.config
+read -p "请输入设备号: " bot_id
+ossutil cp -r  oss://xin-run/together/$bot_id /root/test/
+mv /root/test/$bot_id /root/test/.config
 
