@@ -29,7 +29,7 @@ else
 fi
 # rm -rf /root/ceremonyclient/node/.config
 # # read -p "请输入设备号: " bot_id
-# ossutil cp -r  oss://xin-run/together/$file_name /root/ceremonyclient/node/
+# ossutil cp -r  oss://xin-run/$path/$file_name /root/ceremonyclient/node/
 # mv /root/ceremonyclient/node/$file_name /root/ceremonyclient/node/.config
 
 rm -rf /root/test/.config
