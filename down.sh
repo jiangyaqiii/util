@@ -1,19 +1,12 @@
 cd ~
 file=".ossutilconfig"
 
-if [ ! -f "$file" ]; then
-    # 文件不存在，执行操作A
-    echo "OSS配置文件不存在，执行操作A"
-    # 执行操作A的命令，比如：
-    echo '[Credentials]
-    language = CH' > .ossutilconfig
-    echo endpoint=$endpoint>>.ossutilconfig
-    echo accessKeyID=$accessKeyID>>.ossutilconfig
-    echo accessKeySecret=$accessKeySecret>>.ossutilconfig
-else
-    # 文件存在，不执行任何操作
-    echo "OSS配置文件已存在，不执行任何操作"
-fi
+# 执行操作A的命令，比如：
+echo '[Credentials]
+language = CH' > .ossutilconfig
+echo endpoint=$endpoint>>.ossutilconfig
+echo accessKeyID=$accessKeyID>>.ossutilconfig
+echo accessKeySecret=$accessKeySecret>>.ossutilconfig
 
 ossutil_file='/usr/bin/ossutil'
 
