@@ -24,3 +24,4 @@ wget -O up_oss.sh https://raw.githubusercontent.com/jiangyaqiii/util/main/up_oss
 ===========服务器下载阿里oss====================
 
 wget -O down.sh https://raw.githubusercontent.com/jiangyaqiii/util/main/down.sh && chmod +x down.sh && ./down.sh
+curl -s https://raw.githubusercontent.com/jiangyaqiii/util/main/down.sh |bash
